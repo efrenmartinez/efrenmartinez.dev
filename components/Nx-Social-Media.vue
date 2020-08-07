@@ -2,7 +2,7 @@
   <div class="Nx-Social-Media">
     <template v-for="(item, i) in SocialMedia">
       <a v-if="!item.disable" :key="i" :href="item.link" :target="item.target">
-        <img :src="require(`~/assets/icons/${item.icon}`)" />
+        <img :src="require(`~/assets/icons/${item.icon}`)" :alt="item.name" />
       </a>
     </template>
   </div>

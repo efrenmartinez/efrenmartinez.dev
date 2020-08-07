@@ -2,6 +2,8 @@
   --blue: #0F8DBA;
   --pink: #EE2C5A;
   --font-primary: 'Nunito', sans-serif;
+  --color: rgba(36, 36, 36, 0.7);
+  --black: #242424;
 
   --font-light: 300;
   --font-regular: 400;
@@ -12,6 +14,11 @@
 body {
   font-family: var(--font-primary);
   font-weight: var(--font-regular);
+  color: var(--color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--black)
 }
 
 .container {
