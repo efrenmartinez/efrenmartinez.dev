@@ -1,3 +1,37 @@
+:root {
+  --blue: #0F8DBA;
+  --pink: #EE2C5A;
+  --font-primary: 'Nunito', sans-serif;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+}
+
 body {
-  font-family: 'Nunito';
+  font-family: var(--font-primary);
+  font-weight: var(--font-regular);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nx-bold {
+  font-weight: 600;
+  color: var(--pink);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--blue)
+}
+
+p {
+  font-size: 16px;
+  line-height: 36px;
+  text-align: start;
 }

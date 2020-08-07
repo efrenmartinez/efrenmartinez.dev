@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <main class="container">
     <Nuxt />
-  </div>
+    <NxFooter />
+  </main>
 </template>
