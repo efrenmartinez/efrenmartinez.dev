@@ -2,7 +2,11 @@
   <div class="Nx-Social-Media">
     <template v-for="(item, i) in SocialMedia">
       <a v-if="!item.disable" :key="i" :href="item.link" :target="item.target">
-        <img :src="require(`~/assets/icons/${item.icon}`)" :alt="item.name" />
+        <img
+          :src="require(`~/assets/icons/${item.icon}`)"
+          :alt="item.name"
+          :style="sizeIcon"
+        />
       </a>
     </template>
   </div>
@@ -19,10 +23,24 @@
 import SocialMedia from '@/utils/social-media.js'
 export default {
   name: 'NxSocialMedia',
+  props: {
+    size: {
+      type: String,
+      default: '28px',
+    },
+  },
   data() {
     return {
       SocialMedia,
     }
+  },
+  computed: {
+    sizeIcon() {
+      return {
+        height: this.size,
+        width: this.size,
+      }
+    },
   },
 }
 </script>
@@ -32,10 +50,6 @@ export default {
   height: 30px;
   a {
     margin: 0 5px;
-    img {
-      height: 28px;
-      width: 28px;
-    }
   }
 }
 </style>

@@ -1,7 +1,12 @@
 <template>
   <footer class="Nx-Footer">
-    <span>@efrenmartinez © 2020</span>
-    <span>Built with Nuxt.js and Netlify</span>
+    <span class="nx-semibold">efrenmartinez © 2020</span>
+    <a href="https://nuxtjs.org/" target="_blank">
+      <img
+        :src="require(`~/assets/icons/built-with.svg`)"
+        alt="Built with Nuxt.JS"
+      />
+    </a>
   </footer>
 </template>
 
@@ -20,16 +25,19 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-  height: 100px;
+  height: 150px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  font-size: 12px;
+  justify-content: center;
+  font-size: 14px;
 
   span {
-    font-weight: 600;
-    line-height: 24px;
-    margin: 0 10px;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100px;
   }
 }
 </style>
