@@ -24,4 +24,10 @@ export default [
     link: 'https://twitter.com/efrenmartinezmx',
     target: 'blank',
   },
+  {
+    name: 'mail',
+    icon: 'mail.svg',
+    link: 'mailto:developer.emartinez@gmail.com?Subject=🖤',
+    target: '_blank',
+  },
 ]
