@@ -28,14 +28,7 @@ export default {
           'Soy desarrollador frontend principalmente con VueJS 💚 en la cuidad de Querétaro, México.',
       },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap',
-      },
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Global CSS
