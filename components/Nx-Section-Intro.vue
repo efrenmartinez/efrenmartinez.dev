@@ -34,4 +34,13 @@ export default {
     justify-content: center;
   }
 }
+@media screen and (max-width: 420px) {
+  .Nx-Section-Intro {
+    height: 400px;
+
+    .container-title {
+      width: 100%;
+    }
+  }
+}
 </style>
