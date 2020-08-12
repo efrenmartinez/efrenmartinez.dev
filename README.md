@@ -1,20 +1,18 @@
-# efrenmartinez
+### **Portafolio web**
 
-## Build Setup
+Portafolio web with NuxtJS.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fcf73074-79d4-430b-a948-ce18e72160b4/deploy-status)](https://app.netlify.com/sites/efrenmartinez/deploys)
 
-```bash
-# install dependencies
-$ yarn install
+#### [Live Review](https://efrenmartinez.dev)
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+#### Stack
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+- Used technologies:
+  - NuxtJS
+  - VueJS
+  - SCSS
+  - Netlify
 
-# generate static project
-$ yarn generate
-```
+#### [License](https://choosealicense.com/licenses/mit/)
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+MIT © [Efrén Martínez](https://www.efrenmartinez.dev)
