@@ -54,10 +54,15 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap'],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+
+  sitemap: {
+    hostname: 'https://www.efrenmartinez.dev',
+    gzip: true,
+  },
 }
