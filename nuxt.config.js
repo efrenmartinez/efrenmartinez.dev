@@ -17,7 +17,8 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-    title: 'Efrén Martínez Rodríguez | Desarrollador Frontend VueJS',
+    title:
+      'Efren Martinez Rodriguez | Frontend Engineer 🚀 Platzi Master Student',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -25,7 +26,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Soy desarrollador frontend principalmente con VueJS 💚 en la cuidad de Querétaro, México.',
+          'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames. Enthusiast Python.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
