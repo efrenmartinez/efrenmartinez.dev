@@ -1,6 +1,14 @@
 <template>
   <nav>
-    <NxSocialMedia />
+    <ul>
+      <n-link to="/">
+        <img src="~/assets/icons/usa.svg" alt="icon usa" />
+      </n-link>
+      <n-link to="/es"
+        ><img src="~/assets/icons/mexico.svg" alt="icon mexico"
+      /></n-link>
+    </ul>
+    <NxSocialMedia size="22px" />
   </nav>
 </template>
 
@@ -25,5 +33,13 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  ul {
+    padding: 0;
+    a > img {
+      width: 27px;
+      margin-right: 10px;
+    }
+  }
 }
 </style>

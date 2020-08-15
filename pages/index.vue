@@ -1,40 +1,46 @@
 <template>
   <section>
-    <NxSectionIntro />
-    <h3>Bienvenido a mi garage digital.</h3>
+    <NxSectionIntro
+      title="Hi! I´m Efren Martinez Rodriguez 👋"
+      subtitle="I´m Front End Engineer VueJS 💚 based in Queretaro, Mexico. Interested
+        in design, tech and videogames. Enthusiast Python."
+    />
+    <h3>Welcome to my digital garden.</h3>
     <p>
-      Soy
-      <span class="nx-bold nx-pink">desarrollador frontend</span> principalmente
-      con <span class="nx-bold nx-pink">VueJS 💚</span> en la cuidad de
-      Querétaro, México. Actualmente trabajo en
+      I´m
+      <span class="nx-bold nx-pink">Front End Enginner</span> principally with
+      <span class="nx-bold nx-pink">VueJS, SASS</span> and
+      <span class="nx-bold nx-pink">NodeJS 💚</span>. Comes from Queretaro,
+      Mexico. Currently I work in
       <a href="https://marciano.com.mx/" target="_blank">Marciano Studio</a> 🚀,
-      una agencia digital con clientes como Suzuki Mexico, Michelin, AGCO
-      México.
+      a digital agency with clients like Suzuki Mexico, Michelin, AGCO México.
     </p>
-    <h3>Experiencia</h3>
+    <h3>Experience</h3>
     <p>
-      He tenido la oportunidad de colaborar en
+      I have had the opportunity to collaborate in
       <a href="https://www.grupoeducare.com/web/" target="_blank"
         >Grupo Educare</a
       >
-      como desarrollador web, empresa que se dedica a la realización de libros
-      interactivos, en donde realice proyectos con
-      <span class="nx-bold nx-pink">PHP, MySQL, Linux</span>.
+      like
+      <span class="nx-bold nx-pink">Web developer</span>, company that is
+      dedicated to the realization of interactive books, where I develop with
+      <span class="nx-bold nx-pink">PHP, MySQL, Linux, Angular</span> and
+      <span class="nx-bold nx-pink">Apache</span>.
     </p>
     <p>
-      Mi stack de día a día es creando aplicaciones web usando
-      <a href="https://quasar.dev/" target="_blank">Quasar</a>, un framework de
-      <span class="nx-bold nx-pink">VueJS</span> el cual permite escribir código
-      una sola vez y poder desplegarlo como una aplicación SPA, SSR, PWA,
-      aplicación movil o como aplicación multiplataforma. Ademas de escribir
-      código <span class="nx-bold nx-pink">CSS</span> usando
-      <span class="nx-bold nx-pink">SASS</span>.
+      Mi stack from day to day in creating applications web using
+      <a href="https://quasar.dev/" target="_blank">Quasar</a>,
+      <span class="nx-bold nx-pink">VueJS</span> based framework, which allows
+      to write code just one time and y deploy like application SPA, SSR, PWA,
+      Mobile Apps or Multi-platform Desktop Apps. In addition write code
+      <span class="nx-bold nx-pink">CSS, SASS</span> and
+      <span class="nx-bold nx-pink">JavaScript</span>.
     </p>
     <p>
-      Cuando no estoy desarrollando por lo regular me encuentro leyendo, jugando
-      algún videojuego o viendo series o peliculas.
+      When I'm not coding, I´m usually playing some video games of my backlog,
+      watching series or movies.
     </p>
-    <h3>Puedes encuentrame en:</h3>
+    <h3>You can find me in:</h3>
     <NxSocialMedia size="40px" />
   </section>
 </template>

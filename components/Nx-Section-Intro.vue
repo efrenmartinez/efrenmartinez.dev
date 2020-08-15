@@ -1,10 +1,8 @@
 <template>
   <div class="Nx-Section-Intro">
     <div class="container-title">
-      <h1>👋 Hola!! Soy Efrén Martínez Rodríguez</h1>
-      <h2>
-        Desarrollador Frontend 🐍 Entusiasta de Python 🎓 Platzi Master
-      </h2>
+      <h1>{{ title }}</h1>
+      <h2>{{ subtitle }}</h2>
     </div>
   </div>
 </template>
@@ -18,6 +16,16 @@
  */
 export default {
   name: 'NxSectionIntro',
+  props: {
+    title: {
+      type: String,
+      default: '#default',
+    },
+    subtitle: {
+      type: String,
+      default: '#default',
+    },
+  },
 }
 </script>
 
@@ -25,7 +33,7 @@ export default {
 .Nx-Section-Intro {
   display: flex;
   flex-wrap: nowrap;
-  height: 200px;
+  height: 350px;
 
   .container-title {
     width: 60%;
