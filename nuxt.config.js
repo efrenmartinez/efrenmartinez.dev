@@ -26,7 +26,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames. Enthusiast Python.',
+          'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

@@ -3,7 +3,7 @@
     <NxSectionIntro
       title="Hi! I´m Efren Martinez Rodriguez 👋"
       subtitle="I´m Front End Engineer VueJS 💚 based in Queretaro, Mexico. Interested
-        in design, tech and videogames. Enthusiast Python."
+        in design, tech and videogames."
     />
     <h3>Welcome to my digital garden.</h3>
     <p>

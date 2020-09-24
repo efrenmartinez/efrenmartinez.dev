@@ -2,7 +2,7 @@
   <section>
     <NxSectionIntro
       title="Hola! Soy Efrén Martínez Rodríguez 👋"
-      subtitle="Soy Front End Engineer especialmente con VueJS 💚 de la cuidad de Querétaro, México. Interesado en el diseño, tecnología y videojuegos. Gran entusiasta de Python."
+      subtitle="Soy Front End Engineer especialmente con VueJS 💚 de la cuidad de Querétaro, México. Interesado en el diseño, tecnología y videojuegos."
     />
     <h3>Bienvenido a mi garage digital.</h3>
     <p>

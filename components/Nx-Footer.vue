@@ -1,12 +1,12 @@
 <template>
   <footer class="Nx-Footer">
-    <span class="nx-semibold">efrenmartinez © 2020</span>
     <a href="https://nuxtjs.org/" target="_blank">
       <img
         :src="require(`~/assets/icons/built-with.svg`)"
         alt="Built with Nuxt.JS"
       />
     </a>
+    <a href="https://teenyicons.com/" target="_blank">Icons by @teenyicons</a>
   </footer>
 </template>
 
@@ -27,14 +27,10 @@ export default {
 footer {
   height: 150px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 14px;
-
-  span {
-    margin: 10px 0;
-  }
 
   img {
     width: 100px;
