@@ -27,7 +27,8 @@ export default [
   {
     name: 'mail',
     icon: 'mail.svg',
-    link: 'mailto:developer.emartinez@gmail.com?Subject=🖤',
+    link: 'mailto:developer.emartinez@gmail.com?Subject=🖤 Hello friend',
+    disable: true,
     target: '_blank',
   },
 ]
