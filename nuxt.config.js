@@ -18,7 +18,7 @@ export default {
       lang: 'en',
     },
     title:
-      'Efren Martinez Rodriguez | Frontend Engineer 🚀 Platzi Master Student',
+      'Efren Martinez Rodriguez 🚀 Frontend Engineer 🚀 Platzi Master Student',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
