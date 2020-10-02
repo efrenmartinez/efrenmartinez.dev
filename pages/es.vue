@@ -42,12 +42,5 @@
 </template>
 
 <script>
-import NxSectionIntro from '@/components/Nx-Section-Intro.vue'
-import NxSocialMedia from '@/components/Nx-Social-Media.vue'
-export default {
-  components: {
-    NxSocialMedia,
-    NxSectionIntro,
-  },
-}
+export default {}
 </script>
