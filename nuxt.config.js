@@ -17,8 +17,7 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-    title:
-      'Efren Martinez Rodriguez 🚀 Frontend Engineer 🚀 Platzi Master Student',
+    title: 'Efren Martinez Rodriguez | Frontend Engineer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -28,8 +27,66 @@ export default {
         content:
           'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames.',
       },
+      // Open Graph / facebook
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:url',
+        content: 'https://www.efrenmartinez.dev/',
+      },
+      {
+        property: 'og:title',
+        content:
+          'Efren Martinez Rodriguez 💚 Frontend Engineer 🚀 Platzi Master Student',
+      },
+      {
+        property: 'og:description',
+        content:
+          'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames. Platzi Master Student.',
+      },
+      {
+        property: 'og:image',
+        content: 'https://www.efrenmartinez.dev/profile.jpg',
+      },
+      // Twitter
+      {
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        property: 'twitter:url',
+        content: 'https://www.efrenmartinez.dev/',
+      },
+      {
+        property: 'twitter:title',
+        content:
+          'Efren Martinez Rodriguez 💚 Frontend Engineer 🚀 Platzi Master Student',
+      },
+      {
+        property: 'twitter:description',
+        content:
+          'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames. Platzi Master Student.',
+      },
+      {
+        property: 'twitter:image',
+        content: 'https://www.efrenmartinez.dev/profile.jpg',
+      },
+      {
+        name: 'twitter:creator',
+        value: '@efrenmartinezmx',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        href:
+          'https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap',
+        rel: 'stylesheet',
+        defer: true,
+      },
+    ],
   },
   /*
    ** Global CSS
