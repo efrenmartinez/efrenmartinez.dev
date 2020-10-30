@@ -2,27 +2,14 @@ body {
   font-family: var(--font-primary);
   font-weight: var(--font-regular);
   color: var(--gray);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--color-primary);
+  font-size: var(--font-size);
 }
 
 a {
   text-decoration: none;
   font-weight: var(--font-semi-bold);
   color: var(--blue);
-}
-
-p {
-  font-size: 16px;
-  line-height: 36px;
-  text-align: start;
+  font-size: 1em;
 }
 
 .container {

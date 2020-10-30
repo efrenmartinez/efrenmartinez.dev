@@ -1,10 +1,11 @@
 <template>
-  <div class="Nx-Section-Intro">
+  <section class="Nx-Section-Intro">
     <div class="container-title">
       <h1>{{ title }}</h1>
       <h2>{{ subtitle }}</h2>
+      <NxSocialMedia size="30px" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -33,22 +34,20 @@ export default {
 .Nx-Section-Intro {
   display: flex;
   flex-wrap: nowrap;
-  height: 350px;
+  height: 450px;
 
   .container-title {
-    width: 60%;
+    width: 100%;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 900px) {
   .Nx-Section-Intro {
-    height: 400px;
-
-    .container-title {
-      width: 100%;
-    }
+    padding: 0 20px;
   }
 }
 </style>

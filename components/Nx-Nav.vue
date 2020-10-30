@@ -1,8 +1,10 @@
 <template>
   <header>
     <nav>
-      <NxLanguage />
-      <NxSocialMedia size="22px" />
+      <n-link to="/" style="font-size: 2em">Efren Martinez</n-link>
+      <ul>
+        <n-link to="about" style="font-size: 1.5em">About</n-link>
+      </ul>
     </nav>
   </header>
 </template>
@@ -22,9 +24,9 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-  height: 50px;
+  height: 60px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 </style>
