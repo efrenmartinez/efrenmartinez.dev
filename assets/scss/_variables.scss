@@ -1,10 +1,12 @@
 :root {
   --blue: #0f8dba;
   --pink: #ee2c5a;
-  --black: #242424;
   --gray: #5e6064;
+  --black: #121212;
+  --white: #fff;
 
-  --color-primary: var(--black);
+  --color-primary: var(--white);
+  --color-background: var(--black);
 
   --font-primary: 'Nunito', sans-serif;
   --font-size: 12px;
