@@ -17,7 +17,7 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-    title: 'Efren Martinez Rodriguez | Frontend Engineer',
+    title: 'Efren Martinez Rodriguez | A front-end enginner.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -25,7 +25,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames.',
+          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more. ',
       },
       // Open Graph / facebook
       {
@@ -38,13 +38,12 @@ export default {
       },
       {
         property: 'og:title',
-        content:
-          'Efren Martinez Rodriguez 💚 Frontend Engineer 🚀 Platzi Master Student',
+        content: 'Efren Martinez Rodriguez | A front-end enginner.',
       },
       {
         property: 'og:description',
         content:
-          'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames. Platzi Master Student.',
+          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more. ',
       },
       {
         property: 'og:image',
@@ -61,13 +60,12 @@ export default {
       },
       {
         property: 'twitter:title',
-        content:
-          'Efren Martinez Rodriguez 💚 Frontend Engineer 🚀 Platzi Master Student',
+        content: 'Efren Martinez Rodriguez | A front-end enginner.',
       },
       {
         property: 'twitter:description',
         content:
-          'I´m Frontend Engineer VueJS 💚 based in Queretaro, Mexico. Interested in design, tech and videogames. Platzi Master Student.',
+          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more. ',
       },
       {
         property: 'twitter:image',
@@ -82,7 +80,17 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         href:
-          'https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap',
+          'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,700&display=swap',
+        rel: 'stylesheet',
+        defer: true,
+      },
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Catamaran&display=swap',
+        rel: 'stylesheet',
+        defer: true,
+      },
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
         rel: 'stylesheet',
         defer: true,
       },

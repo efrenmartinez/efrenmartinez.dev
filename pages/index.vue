@@ -1,13 +1,11 @@
 <template>
   <main>
-    <NxSectionIntro
-      title="Hi! I´m Efren Martinez Rodriguez"
-      subtitle="I´m Front End Engineer VueJS 💚  based in Queretaro, Mexico ☀️. Interested
-        in design, videogames and tacos ❤️"
-    />
+    <NxSectionHero />
   </main>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'Index',
+}
 </script>

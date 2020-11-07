@@ -25,12 +25,15 @@ export default {
 
 <style lang="scss" scoped>
 footer {
-  height: 150px;
+  height: 200px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   font-size: 14px;
+
+  a:last-child {
+    margin-left: 20px;
+  }
 
   img {
     width: 100px;

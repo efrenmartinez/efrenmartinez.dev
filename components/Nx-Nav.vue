@@ -1,9 +1,9 @@
 <template>
   <header>
     <nav>
-      <n-link to="/" style="font-size: 2em">Efren Martinez</n-link>
       <ul>
-        <n-link to="about" style="font-size: 1.5em">About</n-link>
+        <n-link to="/">Home</n-link>
+        <n-link to="about">About</n-link>
       </ul>
     </nav>
   </header>
@@ -23,10 +23,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-nav {
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header {
+  height: 80px;
+  nav {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    ul {
+      a {
+        text-decoration: none;
+        font-size: 1.6em;
+        color: var(--white);
+      }
+      a:first-child {
+        margin: 0 20px;
+      }
+      .nuxt-link-exact-active {
+        color: var(--blue-light);
+        text-decoration: underline;
+      }
+    }
+  }
 }
 </style>

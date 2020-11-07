@@ -1,14 +1,22 @@
 :root {
   --blue: #0f8dba;
   --pink: #ee2c5a;
-  --gray: #5e6064;
-  --black: #121212;
+  --yellow: #ffc405;
+  --black: #151515;
   --white: #fff;
+  // Home
+  --blue-dark: #1544c0;
+  --blue-light: #96ffca;
+  // About
+  --purple: #5210ac;
 
-  --color-primary: var(--white);
-  --color-background: var(--black);
+  --color-primary: var(--black);
+  --color-background: var(--white);
 
-  --font-primary: 'Nunito', sans-serif;
+  --font-primary: 'Roboto', sans-serif;
+  --font-title: 'Fira Sans Condensed', sans-serif;
+  --font-secondary: 'Catamaran', sans-serif;
+
   --font-size: 12px;
 
   --font-light: 300;

@@ -1,7 +1,6 @@
 ### **Portafolio web**
 
 Portafolio web with NuxtJS.
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fcf73074-79d4-430b-a948-ce18e72160b4/deploy-status)](https://app.netlify.com/sites/efrenmartinez/deploys)
 
 #### [Live Review](https://efrenmartinez.dev)
 
@@ -11,7 +10,7 @@ Portafolio web with NuxtJS.
   - NuxtJS
   - VueJS
   - SCSS
-  - Netlify
+  - Vercel
 
 #### [License](https://choosealicense.com/licenses/mit/)
 

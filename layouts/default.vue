@@ -1,7 +1,6 @@
 <template>
-  <main class="container">
+  <div class="container">
     <NxNav />
     <Nuxt />
-    <NxFooter />
-  </main>
+  </div>
 </template>
