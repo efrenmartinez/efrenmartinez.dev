@@ -2,9 +2,9 @@
   <header>
     <nav>
       <ul>
-        <n-link to="/">Home.js</n-link>
-        <n-link to="/about">About.css</n-link>
-        <n-link to="/blog">Blog.html</n-link>
+        <n-link to="/">HOME</n-link>
+        <n-link to="/about">ABOUT</n-link>
+        <n-link to="/blog">BLOG</n-link>
       </ul>
     </nav>
   </header>

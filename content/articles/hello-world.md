@@ -11,7 +11,7 @@ tags:
   - world
 ---
 
-Hola internauta! Welcome a mi blog
+Hola internauta! Welcome a mi blog.
 
 Cuando son las primeras veces que interacturas con cualquier lenguaje de programación,
 casi siempre te enseñan el famoso **Hello world**, asi que no queria perder la oportunidad de escribir mi hello world desde mi blog. 
