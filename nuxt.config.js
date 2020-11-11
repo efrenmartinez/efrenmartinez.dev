@@ -22,68 +22,6 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'I´m a front-end enginner based in Querétaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
-      },
-      // Open Graph / facebook
-      {
-        property: 'og:type',
-        content: 'website',
-      },
-      {
-        property: 'og:url',
-        content: 'https://www.efrenmartinez.dev/',
-      },
-      {
-        property: 'og:title',
-        content: 'Efrén Martínez Rodríguez | A front-end enginner.',
-      },
-      {
-        property: 'og:description',
-        content:
-          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
-      },
-      {
-        property: 'og:image',
-        content: 'https://www.efrenmartinez.dev/profile.jpg',
-      },
-      // Twitter Card
-      {
-        name: 'twitter:card',
-        content: 'summary_large_image',
-      },
-      {
-        name: 'twitter:url',
-        content: 'https://www.efrenmartinez.dev/',
-      },
-      {
-        name: 'twitter:title',
-        content: 'Efrén Martínez Rodríguez | A front-end enginner.',
-      },
-      {
-        name: 'twitter:description',
-        content:
-          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
-      },
-      {
-        name: 'twitter:image',
-        content: 'https://www.efrenmartinez.dev/profile.jpg',
-      },
-      {
-        name: 'twitter:creator',
-        content: '@efrenmartinezmx',
-      },
-      {
-        name: 'twitter:site',
-        content: '@efrenmartinezmx',
-      },
-      {
-        name: 'twitter:image:alt',
-        content: 'Foto de perfil.',
-      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
