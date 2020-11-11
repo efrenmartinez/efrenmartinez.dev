@@ -35,7 +35,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     h1 {
-      color: var(--blue-light);
+      color: var(--blue);
       font-family: var(--font-title);
       font-size: 7.4em;
       letter-spacing: 3px;

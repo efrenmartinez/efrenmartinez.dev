@@ -6,7 +6,7 @@
         alt="Built with Nuxt.JS"
       />
     </a>
-    <a href="https://teenyicons.com/" target="_blank">Icons by @teenyicons</a>
+    <BSocialMedia />
   </footer>
 </template>
 
@@ -28,15 +28,10 @@ footer {
   height: 200px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  font-size: 14px;
-
-  a:last-child {
-    margin-left: 20px;
-  }
+  justify-content: space-around;
 
   img {
-    width: 100px;
+    width: 110px;
   }
 }
 </style>
