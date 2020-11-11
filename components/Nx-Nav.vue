@@ -2,8 +2,8 @@
   <header>
     <nav>
       <ul>
-        <n-link to="/">Home</n-link>
-        <n-link to="about">About</n-link>
+        <n-link to="/">Home.js</n-link>
+        <n-link to="about">About.css</n-link>
       </ul>
     </nav>
   </header>
@@ -41,7 +41,6 @@ header {
       }
       .nuxt-link-exact-active {
         color: var(--blue-light);
-        text-decoration: underline;
       }
     }
   }

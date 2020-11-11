@@ -1,35 +1,24 @@
 <template>
   <main class="about">
-    <h3>Welcome to my digital garden.</h3>
-    <p>
-      I´m Front End Enginner principally with VueJS, SASS and NodeJS 💚. Comes
-      from Queretaro, Mexico. Currently I work in
-      <a href="https://marciano.com.mx/" target="_blank">Marciano Studio</a> 🚀,
-      a digital agency with clients like Suzuki Mexico, Michelin, AGCO México.
-    </p>
-    <h3>Experience</h3>
-    <p>
-      I have had the opportunity to collaborate in
-      <a href="https://www.grupoeducare.com/web/" target="_blank"
-        >Grupo Educare</a
-      >
-      like Web developer, company that is dedicated to the realization of
-      interactive books, where I develop with PHP, MySQL, Linux, Angular and
-      Apache.
-    </p>
-    <p>
-      Mi stack from day to day in creating applications web using
-      <a href="https://quasar.dev/" target="_blank">Quasar</a>, VueJS based
-      framework, which allows to write code just one time and y deploy like
-      application SPA, SSR, PWA, Mobile Apps or Multi-platform Desktop Apps. In
-      addition write code CSS, SASS and JavaScript.
-    </p>
-    <p>
-      When I'm not coding, I´m usually playing some video games of my backlog,
-      watching series or movies.
-    </p>
-    <h3>You can find me in:</h3>
-    <NxSocialMedia size="40px" />
+    <h1>Welcome to my digital garden.</h1>
+    <h3>About Me</h3>
+    <p>I love Vue.js 💚</p>
+    <p>But here is a little description about myself.</p>
+    <ul>
+      <li>
+        🙈 My favorite console is Nintendo Switch but have Xbox One and
+        Playstation 4.
+      </li>
+      <li>😁 My favorite OS is Linux even though I used Mac.</li>
+      <li>🖼 I wanted to be an illustrator</li>
+    </ul>
+    <h3>Next Projects in 2021</h3>
+    <ul>
+      <li>💻 Write blog about programming.</li>
+      <li>🕹 Write blog about videogames.</li>
+      <li>🎮 Develop a video game.</li>
+      <li>🚀 Build a small robot.</li>
+    </ul>
   </main>
 </template>
 
@@ -42,19 +31,30 @@
  */
 export default {
   name: 'About',
+  head: {
+    title: 'About Me | A front-end enginner.',
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 .about {
-  margin: 2.5em 0;
+  margin: 80px 0;
+  h1 {
+    font-family: var(--font-secondary);
+  }
   h3 {
     font-family: var(--font-secondary);
-    font-size: 2em;
+    font-size: 2.2em;
     color: var(--yellow);
   }
-  a {
-    color: var(--blue-light);
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+      font-size: 1.5em;
+      line-height: 2.3em;
+    }
   }
 }
 </style>
