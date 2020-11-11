@@ -34,5 +34,6 @@ export default [
     link: 'mailto:developer.emartinez@gmail.com?Subject=🖤 Hello friend',
     target: '_blank',
     title: 'developer.emartinez@gmail.com',
+    disable: true,
   },
 ]
