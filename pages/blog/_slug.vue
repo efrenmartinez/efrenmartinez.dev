@@ -27,23 +27,56 @@ export default {
           name: 'description',
           content: this.article.description,
         },
-        // Open Graph
+        // Open Graph / facebook
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:url',
+          content: `https://efrenmartinez.dev/blog/${this.article.slug}`,
+        },
         { hid: 'og:title', property: 'og:title', content: this.article.title },
         {
-          hid: 'og:description',
           property: 'og:description',
           content: this.article.description,
         },
+        {
+          property: 'og:image',
+          content: 'https://www.efrenmartinez.dev/profile.jpg',
+        },
         // Twitter Card
         {
-          hid: 'twitter:title',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+        {
+          name: 'twitter:url',
+          content: `https://efrenmartinez.dev/blog/${this.article.slug}`,
+        },
+        {
           name: 'twitter:title',
           content: this.article.title,
         },
         {
-          hid: 'twitter:description',
           name: 'twitter:description',
           content: this.article.description,
+        },
+        {
+          name: 'twitter:image',
+          content: 'https://www.efrenmartinez.dev/profile.jpg',
+        },
+        {
+          name: 'twitter:creator',
+          content: '@efrenmartinezmx',
+        },
+        {
+          name: 'twitter:site',
+          content: '@efrenmartinezmx',
+        },
+        {
+          name: 'twitter:image:alt',
+          content: this.article.title,
         },
       ],
     }

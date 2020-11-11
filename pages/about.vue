@@ -31,8 +31,10 @@
  */
 export default {
   name: 'About',
-  head: {
-    title: 'About Me | A front-end enginner.',
+  head() {
+    return {
+      title: 'About Me',
+    }
   },
 }
 </script>

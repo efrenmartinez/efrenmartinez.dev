@@ -50,31 +50,39 @@ export default {
         property: 'og:image',
         content: 'https://www.efrenmartinez.dev/profile.jpg',
       },
-      // Twitter
+      // Twitter Card
       {
-        property: 'twitter:card',
+        name: 'twitter:card',
         content: 'summary_large_image',
       },
       {
-        property: 'twitter:url',
+        name: 'twitter:url',
         content: 'https://www.efrenmartinez.dev/',
       },
       {
-        property: 'twitter:title',
+        name: 'twitter:title',
         content: 'Efrén Martínez Rodríguez | A front-end enginner.',
       },
       {
-        property: 'twitter:description',
+        name: 'twitter:description',
         content:
           'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
       },
       {
-        property: 'twitter:image',
+        name: 'twitter:image',
         content: 'https://www.efrenmartinez.dev/profile.jpg',
       },
       {
         name: 'twitter:creator',
-        value: '@efrenmartinezmx',
+        content: '@efrenmartinezmx',
+      },
+      {
+        name: 'twitter:site',
+        content: '@efrenmartinezmx',
+      },
+      {
+        name: 'twitter:image:alt',
+        content: 'Foto de perfil.',
       },
     ],
     link: [
