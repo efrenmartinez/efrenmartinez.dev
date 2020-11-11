@@ -17,7 +17,8 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-    title: 'Efren Martinez Rodriguez | A front-end enginner.',
+    titleTemplate: '%s | Efrén Martínez Rodríguez',
+    title: 'A front-end enginner',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -25,7 +26,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more. ',
+          'I´m a front-end enginner based in Querétaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
       },
       // Open Graph / facebook
       {
@@ -38,12 +39,12 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'Efren Martinez Rodriguez | A front-end enginner.',
+        content: 'Efrén Martínez Rodríguez | A front-end enginner.',
       },
       {
         property: 'og:description',
         content:
-          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more. ',
+          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
       },
       {
         property: 'og:image',
@@ -60,12 +61,12 @@ export default {
       },
       {
         property: 'twitter:title',
-        content: 'Efren Martinez Rodriguez | A front-end enginner.',
+        content: 'Efrén Martínez Rodríguez | A front-end enginner.',
       },
       {
         property: 'twitter:description',
         content:
-          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more. ',
+          'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
       },
       {
         property: 'twitter:image',
@@ -120,7 +121,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap', '@nuxt/content'],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
