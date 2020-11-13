@@ -41,6 +41,7 @@ export default {
       letter-spacing: 3px;
       line-height: 1em;
       margin: 0;
+      text-shadow: 1px -1px 3px rgb(150, 150, 150);
     }
     h2 {
       font-family: var(--font-primary);

@@ -7,6 +7,7 @@
         :title="item.title"
         :href="item.link"
         :target="item.target"
+        rel="noopener noreferrer"
         >{{ item.name }}</a
       >
     </template>

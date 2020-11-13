@@ -20,7 +20,7 @@
             rel="noopener noreferrer"
             class="nx-semi-bold nx-pink text-decoration-none"
             >Github</a
-          >
+          >.
         </h3>
       </template>
     </NxSectionHero>

@@ -1,6 +1,6 @@
 <template>
   <footer class="Nx-Footer">
-    <a href="https://nuxtjs.org/" target="_blank">
+    <a href="https://nuxtjs.org/" target="_blank" rel="noopener noreferrer">
       <img
         :src="require(`~/assets/icons/built-with.svg`)"
         alt="Built with Nuxt.JS"

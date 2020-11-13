@@ -9,6 +9,9 @@ author:
 tags: 
   - hello
   - world
+img: 
+  src: https://res.cloudinary.com/efrenmartinez/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1605124693/hello-world.jpg
+  alt: Hello world
 ---
 
 Hola internauta! Welcome a mi blog.

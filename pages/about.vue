@@ -112,7 +112,7 @@ export default {
   h3 {
     font-family: var(--font-primary);
     font-size: 2.2em;
-    color: var(--yellow);
+    color: var(--blue-dark);
   }
   ul {
     padding: 0;

@@ -1,5 +1,8 @@
 <template>
-  <main class="_slug">
+  <main>
+    <div class="img-container">
+      <img :src="article.img.src" :alt="article.img.alt" />
+    </div>
     <BHero :title="article.title" :time="article.createdAt" />
     <nuxt-content :document="article" />
   </main>
@@ -84,18 +87,30 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 main {
   min-height: 550px;
-}
-.nuxt-content :is(h1, h2, h3, h4, h5, h6) {
-  color: var(--black);
-}
-.nuxt-content p {
-  color: var(--black);
-}
-.nuxt-content span {
-  font-size: 1.2em;
-  color: var(--black);
+  .img-container {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    img {
+      height: 300px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 15px;
+    }
+  }
+
+  .nuxt-content :is(h1, h2, h3, h4, h5, h6) {
+    color: var(--black);
+  }
+  .nuxt-content p {
+    color: var(--black);
+  }
+  .nuxt-content span {
+    font-size: 1.2em;
+    color: var(--black);
+  }
 }
 </style>
