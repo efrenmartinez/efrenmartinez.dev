@@ -2,7 +2,7 @@
   <main>
     <NxSectionHero>
       <template v-slot:links>
-        <h3>
+        <h3 class="nx-regular">
           You can find me on
           <a
             href="https://www.linkedin.com/in/efren-martinez-rodriguez/"

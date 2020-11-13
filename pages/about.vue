@@ -107,10 +107,10 @@ export default {
 .about {
   margin: 80px 0;
   h1 {
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
   }
   h3 {
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-size: 2.2em;
     color: var(--yellow);
   }

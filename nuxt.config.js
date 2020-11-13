@@ -36,11 +36,6 @@ export default {
         rel: 'stylesheet',
         defer: true,
       },
-      {
-        href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
-        rel: 'stylesheet',
-        defer: true,
-      },
     ],
   },
   /*

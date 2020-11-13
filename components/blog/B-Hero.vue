@@ -38,7 +38,7 @@ export default {
 <style lang="scss" scoped>
 .B-Hero {
   h1 {
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     text-align: center;
     color: var(--black);
     font-size: 3.5em;

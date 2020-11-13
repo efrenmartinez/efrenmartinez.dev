@@ -2,9 +2,9 @@
   <header>
     <nav>
       <ul>
-        <n-link to="/">HOME</n-link>
-        <n-link to="/about">ABOUT</n-link>
-        <n-link to="/blog">BLOG</n-link>
+        <n-link to="/" title="Home">HOME</n-link>
+        <n-link to="/about" title="About">ABOUT</n-link>
+        <n-link to="/blog" title="Blog en Español">BLOG (ES)</n-link>
       </ul>
     </nav>
   </header>

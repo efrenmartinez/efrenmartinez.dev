@@ -43,7 +43,7 @@ export default {
       margin: 0;
     }
     h2 {
-      font-family: var(--font-secondary);
+      font-family: var(--font-primary);
       font-size: 2.5em;
       font-weight: 400;
       line-height: 46px;
