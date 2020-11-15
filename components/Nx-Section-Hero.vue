@@ -54,9 +54,12 @@ export default {
     & {
       .container-title {
         height: 80vh;
-        padding: 20px;
+        padding: initial;
         h1 {
           font-size: 5.4em;
+        }
+        h2 {
+          margin: 20px 0;
         }
       }
     }

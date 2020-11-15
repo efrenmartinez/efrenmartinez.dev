@@ -159,5 +159,13 @@ main {
       }
     }
   }
+  @media screen and (max-width: 900px) {
+    & {
+      .container-list {
+        width: 100%;
+        margin-top: 30px;
+      }
+    }
+  }
 }
 </style>

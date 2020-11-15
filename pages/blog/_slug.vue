@@ -113,4 +113,14 @@ main {
     color: var(--black);
   }
 }
+@media screen and (max-width: 900px) {
+  main {
+    .img-container {
+      margin-bottom: 30px;
+    }
+    .nuxt-content-container {
+      margin: 20px 0;
+    }
+  }
+}
 </style>
