@@ -37,6 +37,12 @@ export default {
 
 <style lang="scss" scoped>
 .B-Hero {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   h1 {
     font-family: var(--font-primary);
     text-align: center;

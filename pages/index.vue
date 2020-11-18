@@ -11,8 +11,7 @@
             rel="noopener noreferrer"
             class="nx-semi-bold nx-pink text-decoration-none"
             >LinkedIn</a
-          >
-          and
+          >,
           <a
             href="https://github.com/efrenmartinez"
             target="_blank"
@@ -20,6 +19,15 @@
             rel="noopener noreferrer"
             class="nx-semi-bold nx-pink text-decoration-none"
             >Github</a
+          >
+          and
+          <a
+            href="mailto:developer.emartinez@gmail.com?Subject=🖤 Hello friend"
+            target="_blank"
+            title="@efrenmartinez"
+            rel="noopener noreferrer"
+            class="nx-semi-bold nx-pink text-decoration-none"
+            >Email</a
           >.
         </h3>
       </template>

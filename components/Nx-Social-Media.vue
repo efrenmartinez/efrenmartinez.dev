@@ -1,6 +1,6 @@
 <template>
   <div class="Nx-Social-Media">
-    <template v-for="(item, i) in CatalogSocialMedia">
+    <template v-for="(item, i) in catalog">
       <a
         v-if="!item.disable"
         :key="i"
@@ -26,7 +26,6 @@
  * @author emartinez <efren.martinez@marciano.com.mx>
  * @copyright 2020, Marciano Studio S.C.
  */
-import CatalogSocialMedia from '@/utils/catalog-social-media.js'
 export default {
   name: 'NxSocialMedia',
   props: {
@@ -34,11 +33,10 @@ export default {
       type: String,
       default: '28px',
     },
-  },
-  data() {
-    return {
-      CatalogSocialMedia,
-    }
+    catalog: {
+      type: Array,
+      required: true,
+    },
   },
   computed: {
     sizeIcon() {

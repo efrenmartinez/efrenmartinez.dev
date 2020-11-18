@@ -29,11 +29,10 @@ export default [
     disable: true,
   },
   {
-    name: 'mail',
+    name: 'email',
     icon: 'mail.svg',
     link: 'mailto:developer.emartinez@gmail.com?Subject=🖤 Hello friend',
     target: '_blank',
     title: 'developer.emartinez@gmail.com',
-    disable: true,
   },
 ]

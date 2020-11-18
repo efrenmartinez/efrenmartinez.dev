@@ -3,12 +3,22 @@
     <h1>Welcome to my digital garden.</h1>
     <h3>About Me</h3>
     <p>I love Vue.js 💚</p>
+    <p>
+      Versatile and creative Front-End engineer with 5+ years of experience
+      designing, developing, and managing e-commerce sites and frameworks.
+      Specializes in Vue JS, CSS and responsive design. I´m part of
+      <a
+        href="https://platzi.com/blog/que-es-platzi-master/"
+        target="_blank"
+        title="@efren-martinez-rodriguez"
+        rel="noopener noreferrer"
+        class="nx-semi-bold nx-blue text-decoration-none"
+        >Platzi Master Program</a
+      >.
+    </p>
     <p>But here is a little description about myself.</p>
     <ul>
-      <li>
-        🙈 My favorite console is Nintendo Switch but have Xbox One and
-        Playstation 4.
-      </li>
+      <li>🙈 My favorite console is Nintendo Switch.</li>
       <li>😁 My favorite OS is Linux even though I used Mac.</li>
       <li>🖼 I wanted to be an illustrator</li>
     </ul>

@@ -44,5 +44,15 @@ header {
       }
     }
   }
+  @media screen and (max-width: 360px) {
+    & {
+      nav {
+        justify-content: flex-start;
+        ul a {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
 }
 </style>

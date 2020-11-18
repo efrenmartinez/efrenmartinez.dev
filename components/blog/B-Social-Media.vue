@@ -1,6 +1,6 @@
 <template>
   <div class="B-Social-Media">
-    <template v-for="(item, i) in CatalogSocialMedia">
+    <template v-for="(item, i) in catalog">
       <a
         v-if="!item.disable"
         :key="i"
@@ -21,13 +21,13 @@
  *
  * @author efrenmartinez <developer.emartinez@gmail.com>
  */
-import CatalogSocialMedia from '@/utils/catalog-social-media.js'
 export default {
   name: 'BSocialMedia',
-  data() {
-    return {
-      CatalogSocialMedia,
-    }
+  props: {
+    catalog: {
+      type: Array,
+      required: true,
+    },
   },
 }
 </script>

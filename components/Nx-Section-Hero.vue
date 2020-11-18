@@ -28,7 +28,7 @@ export default {
 <style lang="scss" scoped>
 .Nx-Section-Hero {
   .container-title {
-    padding: 40px;
+    margin-top: 60px;
     width: 100%;
     height: 500px;
     display: flex;
@@ -48,18 +48,29 @@ export default {
       font-size: 2.5em;
       font-weight: 400;
       line-height: 46px;
+      margin: 20px 0;
     }
   }
   @media screen and (max-width: 900px) {
     & {
       .container-title {
-        height: 80vh;
-        padding: initial;
         h1 {
           font-size: 5.4em;
         }
+      }
+    }
+  }
+  @media screen and (max-width: 400px) {
+    & {
+      height: auto;
+      margin: 40px 0;
+      .container-title {
+        height: auto;
+        h1 {
+          font-size: 4.4em;
+        }
         h2 {
-          margin: 20px 0;
+          font-size: 2.1em;
         }
       }
     }
