@@ -23,20 +23,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        href:
-          'https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,700&display=swap',
-        rel: 'stylesheet',
-        defer: true,
-      },
-      {
-        href: 'https://fonts.googleapis.com/css2?family=Catamaran&display=swap',
-        rel: 'stylesheet',
-        defer: true,
-      },
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Global CSS
