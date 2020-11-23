@@ -6,11 +6,12 @@ author:
   bio: I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.
   github: https://github.com/efrenmartinez
   linkedln: https://www.linkedin.com/in/efren-martinez-rodriguez/
+publish: true
 tags: 
   - hello
   - world
 img: 
-  src: https://res.cloudinary.com/efrenmartinez/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1605124693/hello-world.jpg
+  src: https://res.cloudinary.com/efrenmartinez/image/upload/v1606111720/efrenmartinez.dev-blog/hello-word/thumbs-hello-world_iciyfr.jpg
   alt: Hello world
 ---
 

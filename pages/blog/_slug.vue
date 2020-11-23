@@ -112,6 +112,26 @@ main {
     font-size: 1.2em;
     color: var(--black);
   }
+  .nuxt-content blockquote {
+    color: #666666;
+    margin: 0;
+    padding-left: 3em;
+    border-left: 0.5em #ee2c5a solid;
+  }
+  .nuxt-content a {
+    color: var(--pink);
+    text-decoration: none;
+  }
+  .nuxt-content ul,
+  ol {
+    margin: 1em 0;
+    padding: 0;
+    list-style: square;
+    line-height: 40px;
+    li {
+      font-size: 1.5em;
+    }
+  }
 }
 @media screen and (max-width: 900px) {
   main {

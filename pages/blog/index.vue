@@ -1,6 +1,6 @@
 <template>
   <main>
-    <BHero title="Welcome a mi blog." />
+    <BHero title=".Welcome a mi blog" />
     <section>
       <div class="container-list">
         <ul class="list__articles">
@@ -10,6 +10,7 @@
             class="list__articles-items"
           >
             <NuxtLink
+              v-if="article.publish"
               :to="{ name: 'blog-slug', params: { slug: article.slug } }"
             >
               <article>
@@ -39,8 +40,8 @@ export default {
   name: 'Index',
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
-      .only(['title', 'slug', 'createdAt'])
-      .sortBy('createdAt', 'asc')
+      .only(['publish', 'title', 'slug', 'createdAt'])
+      .sortBy('createdAt', 'desc')
       .fetch()
     return { articles }
   },
@@ -133,7 +134,6 @@ main {
       list-style: none;
       &-items {
         width: 100%;
-        height: 50px;
         a {
           text-decoration: none;
           color: var(--gray-light);

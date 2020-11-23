@@ -5,8 +5,8 @@
       <h1>A front-end enginner.</h1>
       <h2>
         I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in
-        <span class="nx-semi-bold nx-yellow">Vue.js & Nuxt.js</span>, JavaScript
-        (ES6+), HTML & (S)CSS and much more.
+        <span class="nx-yellow">Vue.js & Nuxt.js</span>, JavaScript (ES6+), HTML
+        & (S)CSS and much more.
       </h2>
       <slot name="links"></slot>
     </div>
@@ -37,11 +37,10 @@ export default {
     h1 {
       color: var(--blue);
       font-family: var(--font-title);
-      font-size: 7.4em;
+      font-size: 6.2em;
       letter-spacing: 3px;
       line-height: 1em;
-      margin: 0;
-      text-shadow: 1px -1px 3px rgb(150, 150, 150);
+      margin: 15px 0;
     }
     h2 {
       font-family: var(--font-primary);

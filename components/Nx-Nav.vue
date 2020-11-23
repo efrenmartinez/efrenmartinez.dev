@@ -2,9 +2,9 @@
   <header>
     <nav>
       <ul>
-        <n-link to="/" title="Home">HOME</n-link>
-        <n-link to="/about" title="About">ABOUT</n-link>
-        <n-link to="/blog" title="Blog en Español">BLOG (ES)</n-link>
+        <n-link to="/" title="Home">.home</n-link>
+        <n-link to="/about" title="About">.about</n-link>
+        <n-link to="/blog" title="Blog en Español">.blog (es)</n-link>
       </ul>
     </nav>
   </header>
@@ -38,6 +38,7 @@ header {
         font-size: 1.6em;
         color: var(--gray);
         margin-right: 30px;
+        font-family: var(--font-primary);
       }
       .nuxt-link-exact-active {
         color: var(--purple);
