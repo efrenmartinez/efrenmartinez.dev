@@ -44,12 +44,6 @@ export default {
       .fetch()
     return { articles }
   },
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'numeric', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
-    },
-  },
   head() {
     return {
       title: 'Welcome a mi blog',
@@ -118,6 +112,12 @@ export default {
         },
       ],
     }
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'numeric', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    },
   },
 }
 </script>

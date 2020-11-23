@@ -1,7 +1,7 @@
 <template>
   <main>
     <NxSectionHero>
-      <template v-slot:links>
+      <template #links>
         <h3 class="nx-regular">
           You can find me on
           <a
