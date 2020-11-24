@@ -67,7 +67,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'https://www.efrenmartinez.dev/profile.jpg',
+          content: this.article.img.src,
         },
         {
           name: 'twitter:creator',
