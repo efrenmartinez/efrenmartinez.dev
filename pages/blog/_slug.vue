@@ -46,7 +46,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'https://www.efrenmartinez.dev/profile.jpg',
+          content: this.article.img.src,
         },
         // Twitter Card
         {
