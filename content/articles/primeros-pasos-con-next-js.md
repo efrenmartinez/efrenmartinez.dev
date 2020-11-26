@@ -15,19 +15,19 @@ img:
   alt: primeros-pasos-con-next-js
 ---
 
-Como varios sabrán soy un gran entusiasta de todo lo relacionado con VueJS 💚 y no tengo ningún problema con realizar proyectos por sus distintos sabores de VueJS. Pero hace pocos días empecé a trabajar en un proyecto realizado con Next.js, un framework para renderizar nuestras vistas en el lado del servidor (SSR) que trabaja sobre ReactJS, Webpack y Babel. Así que me dí a la tarea de aprender más sobre Next.js y no parecer un tonto con el equipo.😆😂
+Como varios sabrán soy un gran entusiasta de todo lo relacionado con VueJS 💚 y no tengo ningún problema con realizar proyectos por sus distintos sabores de VueJS. Pero hace pocos días empecé a trabajar en un proyecto realizado con Next.js, un framework para renderizar nuestras vistas en el lado del servidor (SSR) que trabaja sobre ReactJS, Webpack y Babel. Así que me dí a la tarea de aprender más sobre Next.js y no quedarme atrás con el equipo.😆😂
 <br/>
 
-Antes de empezar con NextJS como todo framework tiene sus propias **"configuraciones"** por las cuales **"exigen"** seguir la estructura de las carpetas y respetar ciertas **"reglas"** para no romper el framwork. 
+Antes de empezar con NextJS como todo framework tiene sus propias configuraciones por las cuales exigen seguir la estructura de las carpetas y respetar ciertas reglas para no romper el framework.
 <br/>
 
 Esto será un pequeño posts de las grandes funcionalidades que ofrece NextJS.
 
 # Instalación de Next.js
 
-Para poder utilizar Next.js es requerido tener instalado Node.js (una versión superior a la v10.13) y NPM. Una vez ubicados en el carpeta donde trabajaremos, hay que tener en cuenta que para instalar NextJS se puede hacer de dos formas:
+Para poder utilizar Next.js es requerido tener instalado Node.js (una versión superior a la v10.13) y NPM. Una vez ubicados en la carpeta donde trabajaremos, hay que tener en cuenta que para instalar NextJS se puede hacer de dos formas:
 
-- Usar su CLI
+- Usar su CLI (Interfaz de Línea de Comandos)
 
 > [https://nextjs.org/docs#setup](https://nextjs.org/docs#setup)
 
@@ -35,7 +35,7 @@ Para poder utilizar Next.js es requerido tener instalado Node.js (una versión s
 
 > [https://nextjs.org/docs#manual-setup](https://nextjs.org/docs#manual-setup)
 
-Yo lo haré de la forma manual. Me gusta saber lo que esto haciendo. Dejando claro lo anterior. Empecemos.... 😎
+Yo lo haré de la forma manual. Me gusta saber lo que estoy haciendo. Dejando claro lo anterior. Empecemos.... 😎
 
 - Creamos una carpeta llamada my-first-app-with-next-js y accedemos a ella:
 
@@ -57,7 +57,7 @@ Yo lo haré de la forma manual. Me gusta saber lo que esto haciendo. Dejando cla
 
 # Configurando Next.js
 
-Una vez realizado la instalación necesitamos de unos pequeños ajustes para correr el proyecto.
+Una vez realizada la instalación necesitamos de unos pequeños ajustes para correr el proyecto.
 
 - Al momento de inicializar el proyecto con NPM esté va a crear un archivo package.json
 
@@ -73,13 +73,13 @@ Estos scripts se refieren a las diferentes etapas del desarrollo.
 - build : Crea la aplicación para producción.
 - start  : Crea la aplicación para correrlo con Nodejs.
 
-A este punto estamos a punto de correr el proyecto ya casi  🥵👌
+Ya casi estamos a punto de correr el proyecto ya casi  🥵👌
 
 Hasta ahora sencillo. ¿No?
 
 # Generando la primera vista
 
-Añadir una vista en Next.js es bastante sencillo solo necesitamos crear una carpeta principal llamado pages, que es la carpeta donde Next.js buscará cada archivos JS, lo cual lo procesara y renderizada automaticamente. Veamos como funciona:
+Añadir una vista en Next.js es bastante sencillo solo necesitamos crear una carpeta principal llamada pages, que es la carpeta donde Next.js buscará cada archivos JS, por el cual procesara y renderizada automáticamente. Veamos como funciona:
 
 - Creamos un archivo **index.js** ⇒ **pages/index.js** y agregramos el siguiente código.
 
@@ -93,11 +93,11 @@ export default Index;
 
 ![07-agregamos-el-codigo](https://res.cloudinary.com/efrenmartinez/image/upload/v1606113280/efrenmartinez.dev-blog/primeros-pasos-con-next-js/07-agregamos-el-codigo_agjvib.png)
 
-Ahora pasamos a correr el proyecto en mode desarrollo para ver lo que estamos haciendo 👉👈, por default correrá en el puerto 3000.
+Ahora pasamos a correr el proyecto en modo desarrollo para ver lo que estamos haciendo 👉👈, por default correrá en el puerto 3000.
 
 ![08-correr-el-proyecto](https://res.cloudinary.com/efrenmartinez/image/upload/v1606113692/efrenmartinez.dev-blog/primeros-pasos-con-next-js/08-correr-el-proyecto_n0r3hs.png)
 
-Ahora, si nos dirigimos a [http://localhost:3000/](http://localhost:3000/) en nuestro navegador deberíamos ver lo siguiente:
+¡Ahora si! Nos dirigimos al link [http://localhost:3000/](http://localhost:3000/)  en nuestro navegador y deberíamos ver lo siguiente:
 
 ![09-navegador](https://res.cloudinary.com/efrenmartinez/image/upload/v1606113876/efrenmartinez.dev-blog/primeros-pasos-con-next-js/09-navegador_cywdl1.png)
 
