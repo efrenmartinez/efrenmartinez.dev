@@ -2,9 +2,9 @@
   <section class="Nx-Section-Hero">
     <div class="container-title">
       <h1>Hi, I´m Efren Martinez.</h1>
-      <h1>A front-end engineer.</h1>
+      <h1>A front-end enginner.</h1>
       <h2>
-        I´m a front-end engineer based in Queretaro 🇲🇽. Skilled in
+        I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in
         <span class="nx-yellow">Vue.js & Nuxt.js</span>, JavaScript (ES6+), HTML
         & (S)CSS and much more.
       </h2>

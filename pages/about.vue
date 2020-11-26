@@ -4,7 +4,7 @@
     <h3>About Me</h3>
     <p>I love Vue.js 💚</p>
     <p>
-      Versatile and creative Front-End engineer with 5+ years of experience
+      Versatile and creative Front-End enginner with 5+ years of experience
       designing, developing, and managing e-commerce sites and frameworks.
       Specializes in Vue JS, CSS and responsive design. I´m part of
       <a
