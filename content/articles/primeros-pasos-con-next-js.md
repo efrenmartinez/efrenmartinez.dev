@@ -109,7 +109,9 @@ Lo que no me gusta de ReactJs es la configuración de las rutas algo que pudiera
 
 Si te gustó o te sirvió no dudes en compartir es gratis.
 
-> Aquí les dejo el link del repositorio para que lo descarguen y jueguen con él un poco [https://github.com/efrenmartinez/my-first-app-with-next-js](https://github.com/efrenmartinez/my-first-app-with-next-js).
+> Aquí les dejo el link del repositorio para que lo descarguen y jueguen con él un poco [https://github.com/efrenmartinez/my-first-app-with-next-js](https://github.com/efrenmartinez/my-first-app-with-next-js)
+
+Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/efren-martinez-rodriguez/) y en [GitHub](https://github.com/efrenmartinez).
 
 # Referencias
 

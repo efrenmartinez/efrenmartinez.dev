@@ -1,7 +1,8 @@
 <template>
   <section class="Nx-Section-Hero">
     <div class="container-title">
-      <h1>Hi, I´m Efren Martinez.</h1>
+      <h1>Hi, I´m</h1>
+      <h1>Efren Martinez.</h1>
       <h1>A front-end enginner.</h1>
       <h2>
         I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in
@@ -38,9 +39,8 @@ export default {
       color: var(--blue);
       font-family: var(--font-title);
       font-size: 6.2em;
-      letter-spacing: 3px;
       line-height: 1em;
-      margin: 15px 0;
+      margin: 0;
     }
     h2 {
       font-family: var(--font-primary);
