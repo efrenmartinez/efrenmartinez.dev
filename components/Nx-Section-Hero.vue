@@ -36,11 +36,20 @@ export default {
     flex-direction: column;
     justify-content: center;
     h1 {
-      color: var(--blue);
+      background: #55e0b0;
+      background: -webkit-linear-gradient(right, #55e0b0, #3915d7);
+      background: -moz-linear-gradient(right, #55e0b0, #3915d7);
+      background: linear-gradient(to left, #55e0b0, #3915d7);
+      background-clip: text;
+      color: transparent;
       font-family: var(--font-title);
       font-size: 6.2em;
-      line-height: 1em;
+      line-height: 1.3em;
       margin: 0;
+      &::selection {
+        background: #3915d7;
+        color: #fff;
+      }
     }
     h2 {
       font-family: var(--font-primary);
