@@ -62,6 +62,7 @@ export default {
   @media screen and (max-width: 900px) {
     & {
       .container-title {
+        height: auto;
         h1 {
           font-size: 5.4em;
         }

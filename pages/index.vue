@@ -32,6 +32,7 @@
         </h3>
       </template>
     </NxSectionHero>
+    <NxSectionProjects />
   </main>
 </template>
 
