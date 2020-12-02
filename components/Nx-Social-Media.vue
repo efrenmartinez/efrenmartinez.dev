@@ -2,7 +2,6 @@
   <div class="Nx-Social-Media">
     <template v-for="(item, i) in catalog">
       <a
-        v-if="!item.disable"
         :key="i"
         :title="item.title"
         :href="item.link"

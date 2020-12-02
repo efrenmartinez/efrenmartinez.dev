@@ -2,7 +2,7 @@
   <section class="NxSectionProjects">
     <div class="container-projects">
       <h2>What I've been working on</h2>
-      <NxProjects :projects="CatalogProject" />
+      <NxProjects :projects="projects" />
     </div>
   </section>
 </template>
@@ -15,13 +15,13 @@
  * @author efrenmartinez <developer.emartinez@gmail.com>
  * @copyright 2020, Marciano Studio S.C.
  */
-import CatalogProject from '@/utils/catalog-projects.js'
 export default {
   name: 'NxSectionProjects',
-  data() {
-    return {
-      CatalogProject,
-    }
+  props: {
+    projects: {
+      type: Array,
+      required: true,
+    },
   },
 }
 </script>

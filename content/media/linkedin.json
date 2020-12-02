@@ -1,0 +1,8 @@
+{
+  "name": "linkedin",
+  "icon": "linkedin.svg",
+  "link": "https://www.linkedin.com/in/efren-martinez-rodriguez/",
+  "target": "_blank",
+  "title": "@efren-martinez-rodriguez",
+  "disable": true
+}

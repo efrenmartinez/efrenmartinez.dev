@@ -6,7 +6,7 @@
         alt="Built with Nuxt.JS"
       />
     </a>
-    <NxSocialMedia :catalog="CatalogSocialMedia" size="35px" />
+    <NxSocialMedia :catalog="media" size="35px" />
   </footer>
 </template>
 
@@ -18,13 +18,13 @@
  * @author emartinez <efren.martinez@marciano.com.mx>
  * @copyright 2020, Marciano Studio S.C.
  */
-import CatalogSocialMedia from '@/utils/catalog-social-media.js'
 export default {
   name: 'NxFooter',
-  data() {
-    return {
-      CatalogSocialMedia,
-    }
+  props: {
+    media: {
+      type: Array,
+      required: true,
+    },
   },
 }
 </script>

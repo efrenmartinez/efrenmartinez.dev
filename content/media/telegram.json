@@ -1,0 +1,7 @@
+{
+  "name": "telegram",
+  "icon": "telegram.svg",
+  "link": "#",
+  "target": "_blank",
+  "disable": false
+}
