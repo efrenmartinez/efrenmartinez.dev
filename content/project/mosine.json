@@ -1,0 +1,13 @@
+{
+  "public": true,
+  "name": "Mosine",
+  "url": "https://mosine.vercel.app/",
+  "background": "#FEE5D3",
+  "year": 2020,
+  "img": {
+    "src":
+      "https://res.cloudinary.com/efrenmartinez/image/upload/v1607391367/efrenmartinez.dev-project/mosine.vercel.app__fzm02h.png",
+    "alt": "Mosine"
+  },
+  "github": "https://github.com/swat-leteo/mosyne-web"
+}

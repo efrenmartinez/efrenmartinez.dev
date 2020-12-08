@@ -29,18 +29,18 @@ export default {
 <style lang="scss" scoped>
 .NxSectionProjects {
   .container-projects {
-    min-height: 700px;
+    height: auto;
     width: 100%;
     margin: 50px 0;
     h2 {
       color: var(--blue-dark);
       font-family: var(--font-primary);
-      font-size: 3.5em;
+      font-size: 3em;
       font-weight: 400;
       text-align: center;
     }
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     & {
       container-projects {
         height: auto;

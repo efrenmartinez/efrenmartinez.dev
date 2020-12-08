@@ -35,41 +35,46 @@ export default {
 
 <style lang="scss" scoped>
 .NxProjects {
-  height: 600px;
-  width: 100%;
+  column-gap: 15px;
   display: flex;
   flex-direction: row;
-  column-gap: 15px;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  row-gap: 15px;
+  width: 100%;
   &-items {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
     border-radius: 4px;
-    background-color: #fff7ee;
-    img {
-      height: 550px;
-      width: 100%;
-      border-radius: 4px;
-      transition: 1s ease;
-      box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px;
-      &:hover {
-        transform: scale(0.95);
-        transition: 1s ease;
-      }
-    }
-  }
-  @media screen and (max-width: 800px) {
-    & {
-      height: auto;
-      flex-direction: column;
-      row-gap: 20px;
-      &-items {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 40%;
+    a {
+      width: 300px;
+      img {
+        height: 550px;
         width: 100%;
-        height: 100%;
+        border-radius: 4px;
+        transition: 1s ease;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px;
+        &:hover {
+          transform: scale(0.95);
+          transition: 1s ease;
+        }
       }
     }
   }
+  // @media screen and (max-width: 900px) {
+  //   & {
+  //     height: auto;
+  //     flex-direction: column;
+  //     row-gap: 20px;
+  //     &-items {
+  //       width: 100%;
+  //       height: 100%;
+  //     }
+  //   }
+  // }
 }
 </style>
