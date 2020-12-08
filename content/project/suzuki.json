@@ -4,6 +4,7 @@
   "url": "https://www.suzuki.com.mx/autos",
   "background": "#c5dae8",
   "year": 2020,
+  "month": 6,
   "img": {
     "src":
       "https://res.cloudinary.com/efrenmartinez/image/upload/v1606614361/efrenmartinez.dev-project/suzuki-swift_jklhou.png",
