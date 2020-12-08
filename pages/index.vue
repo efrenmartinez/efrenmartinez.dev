@@ -39,16 +39,13 @@
 <script>
 export default {
   name: 'Index',
-  data() {
-    return {
-      projects: [],
-    }
-  },
-  async fetch() {
-    this.projects = await this.$content('project')
+  async asyncData({ $content, params }) {
+    const projects = await $content('project', params.slug)
       .only(['background', 'url', 'img'])
       .where({ public: true })
+      .sortBy('month', 'asc')
       .fetch()
+    return { projects }
   },
   head() {
     return {
