@@ -1,6 +1,6 @@
 <template>
   <main>
-    <BHero title=".Welcome a mi blog" />
+    <BHero title="Welcome a mi blog" />
     <section>
       <div class="container-list">
         <ul class="list__articles">
