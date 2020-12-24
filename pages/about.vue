@@ -20,15 +20,15 @@
     <ul>
       <li>🙈 My favorite console is Nintendo Switch.</li>
       <li>😁 My favorite OS is Linux even though I used Mac.</li>
-      <li>🖼 I wanted to be an illustrator</li>
+      <li>✍️ I wanted to be an illustrator</li>
     </ul>
-    <h3>Next Projects in 2021</h3>
+    <!-- <h3>Next Projects in 2021</h3>
     <ul>
       <li>💻 Write blog about programming.</li>
       <li>🕹 Write blog about videogames.</li>
       <li>🎮 Develop a video game.</li>
       <li>🚀 Build a small robot.</li>
-    </ul>
+    </ul> -->
   </main>
 </template>
 
@@ -71,7 +71,8 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'https://www.efrenmartinez.dev/profile.jpg',
+          content:
+            'https://res.cloudinary.com/efrenmartinez/image/upload/v1608836316/efrenmartinez.dev/profile_iwlcpr.jpg',
         },
         // Twitter Card
         {
@@ -93,7 +94,8 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'https://www.efrenmartinez.dev/profile.jpg',
+          content:
+            'https://res.cloudinary.com/efrenmartinez/image/upload/v1608836316/efrenmartinez.dev/profile_iwlcpr.jpg',
         },
         {
           name: 'twitter:creator',

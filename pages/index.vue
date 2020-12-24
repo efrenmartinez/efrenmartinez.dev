@@ -76,7 +76,8 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'https://www.efrenmartinez.dev/profile.jpg',
+          content:
+            'https://res.cloudinary.com/efrenmartinez/image/upload/v1608836316/efrenmartinez.dev/profile_iwlcpr.jpg',
         },
         // Twitter Card
         {
@@ -98,7 +99,8 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'https://www.efrenmartinez.dev/profile.jpg',
+          content:
+            'https://res.cloudinary.com/efrenmartinez/image/upload/v1608836316/efrenmartinez.dev/profile_iwlcpr.jpg',
         },
         {
           name: 'twitter:creator',

@@ -11,7 +11,7 @@ tags:
   - next-js
   - javascript
 img:
-  src: https://res.cloudinary.com/efrenmartinez/image/upload/v1606114529/efrenmartinez.dev-blog/primeros-pasos-con-next-js/thumbs-primeros-pasos-con-next-js_ezt0g0.jpg
+  src: https://res.cloudinary.com/efrenmartinez/image/upload/v1608836120/efrenmartinez.dev/blog/primeros-pasos-con-next-js/thumbs-primeros-pasos-con-next-js_ezt0g0_qo58ce.jpg
   alt: primeros-pasos-con-next-js
 ---
 
@@ -39,19 +39,19 @@ Yo lo haré de la forma manual. Me gusta saber lo que estoy haciendo. Dejando cl
 
 - Creamos una carpeta llamada my-first-app-with-next-js y accedemos a ella:
 
-![01-creamos-la-carpeta](https://res.cloudinary.com/efrenmartinez/image/upload/v1606110937/efrenmartinez.dev-blog/primeros-pasos-con-next-js/01-creamos-la-carpeta_h4bwuk.png)
+![01-creamos-la-carpeta](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836119/efrenmartinez.dev/blog/primeros-pasos-con-next-js/01-creamos-la-carpeta_h4bwuk_onxxou.png)
 
 - Inicializamos un proyecto de NPM
 
-![02-inicializamos-npm](https://res.cloudinary.com/efrenmartinez/image/upload/v1606110937/efrenmartinez.dev-blog/primeros-pasos-con-next-js/02-inicializamos-npm_majztl.png)
+![02-inicializamos-npm](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836119/efrenmartinez.dev/blog/primeros-pasos-con-next-js/02-inicializamos-npm_majztl_agpzw5.png)
 
 - Agregamos las dependencias **next, react, react-dom**:
 
-![03-instalacion-de-dependencias](https://res.cloudinary.com/efrenmartinez/image/upload/v1606110937/efrenmartinez.dev-blog/primeros-pasos-con-next-js/03-instalacion-de-dependencias_cv3yfu.png)
+![03-instalacion-de-dependencias](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836119/efrenmartinez.dev/blog/primeros-pasos-con-next-js/03-instalacion-de-dependencias_cv3yfu_czsobq.png)
 
 - Vamos a darle un vistazo a nuestro proyecto en el editor
 
-![04-proyecto-en-el-editor](https://res.cloudinary.com/efrenmartinez/image/upload/v1606110937/efrenmartinez.dev-blog/primeros-pasos-con-next-js/04-proyecto-en-el-editor_wuvkon.png)
+![04-proyecto-en-el-editor](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836119/efrenmartinez.dev/blog/primeros-pasos-con-next-js/04-proyecto-en-el-editor_wuvkon_x6aaa2.png)
 
 🎉🎉🎉 Genial!!! Ya tienes instalado Next.js pero ahora cómo puedo ver nuestro proyecto corriendo. Lo veremos adelante.👇👇
 
@@ -61,11 +61,11 @@ Una vez realizada la instalación necesitamos de unos pequeños ajustes para cor
 
 - Al momento de inicializar el proyecto con NPM esté va a crear un archivo package.json
 
-![05-script-inicial](https://res.cloudinary.com/efrenmartinez/image/upload/v1606110937/efrenmartinez.dev-blog/primeros-pasos-con-next-js/05-script-inicial_ghfvcn.png)
+![05-script-inicial](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836119/efrenmartinez.dev/blog/primeros-pasos-con-next-js/05-script-inicial_ghfvcn_igwjev.png)
 
 - Vamos a reemplazar los scripts con las siguientes lineas:
 
-![06-script-final](https://res.cloudinary.com/efrenmartinez/image/upload/v1606110937/efrenmartinez.dev-blog/primeros-pasos-con-next-js/06-script-final_tc4y2d.png)
+![06-script-final](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836120/efrenmartinez.dev/blog/primeros-pasos-con-next-js/06-script-final_tc4y2d_ckwka1.png)
 
 Estos scripts se refieren a las diferentes etapas del desarrollo.
 
@@ -91,15 +91,15 @@ const Index = () => {
 export default Index;
 ```
 
-![07-agregamos-el-codigo](https://res.cloudinary.com/efrenmartinez/image/upload/v1606113280/efrenmartinez.dev-blog/primeros-pasos-con-next-js/07-agregamos-el-codigo_agjvib.png)
+![07-agregamos-el-codigo](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836120/efrenmartinez.dev/blog/primeros-pasos-con-next-js/07-agregamos-el-codigo_agjvib_mhjtld.png)
 
 Ahora pasamos a correr el proyecto en modo desarrollo para ver lo que estamos haciendo 👉👈, por default correrá en el puerto 3000.
 
-![08-correr-el-proyecto](https://res.cloudinary.com/efrenmartinez/image/upload/v1606113692/efrenmartinez.dev-blog/primeros-pasos-con-next-js/08-correr-el-proyecto_n0r3hs.png)
+![08-correr-el-proyecto](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836120/efrenmartinez.dev/blog/primeros-pasos-con-next-js/08-correr-el-proyecto_n0r3hs_tbyhi1.png)
 
 ¡Ahora si! Nos dirigimos al link [http://localhost:3000/](http://localhost:3000/)  en nuestro navegador y deberíamos ver lo siguiente:
 
-![09-navegador](https://res.cloudinary.com/efrenmartinez/image/upload/v1606113876/efrenmartinez.dev-blog/primeros-pasos-con-next-js/09-navegador_cywdl1.png)
+![09-navegador](https://res.cloudinary.com/efrenmartinez/image/upload/v1608836120/efrenmartinez.dev/blog/primeros-pasos-con-next-js/09-navegador_cywdl1_at1cqw.png)
 
 
 Finalmente tenemos nuestra primera página hecha con Next.js.🥳🥳🥳🥳🥳

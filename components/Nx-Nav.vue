@@ -1,5 +1,11 @@
 <template>
   <header>
+    <n-link to="/">
+      <img
+        src="https://res.cloudinary.com/efrenmartinez/image/upload/v1608834240/efrenmartinez.dev/favicon_b9cqkx.png"
+        alt="Logotipo Efrén Martínez Rodríguez"
+      />
+    </n-link>
     <nav>
       <ul>
         <n-link to="/" title="Home">.home</n-link>
@@ -27,6 +33,14 @@ export default {
 header {
   height: 80px;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  img {
+    height: 80px;
+    width: 80px;
+  }
   nav {
     height: 100%;
     display: flex;
@@ -35,6 +49,8 @@ header {
     ul {
       a {
         text-decoration: none;
+        text-transform: uppercase;
+        font-weight: var(--font-semi-bold);
         font-size: 1.6em;
         color: var(--gray);
         margin-right: 30px;
@@ -48,7 +64,6 @@ header {
   @media screen and (max-width: 360px) {
     & {
       nav {
-        justify-content: flex-start;
         ul a {
           margin-right: 20px;
         }

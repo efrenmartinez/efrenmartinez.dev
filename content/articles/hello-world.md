@@ -11,7 +11,7 @@ tags:
   - hello
   - world
 img:
-  src: https://res.cloudinary.com/efrenmartinez/image/upload/v1606111720/efrenmartinez.dev-blog/hello-word/thumbs-hello-world_iciyfr.jpg
+  src: https://res.cloudinary.com/efrenmartinez/image/upload/v1608836119/efrenmartinez.dev/blog/hello-word/thumbs-hello-world_iciyfr_gvs90z.jpg
   alt: Hello world
 ---
 
