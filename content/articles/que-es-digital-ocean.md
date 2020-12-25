@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es Digital Ocean?
-description: Para hablar de **Digital Ocean** primero se debe explicar que es la nube.
+description: Para hablar de Digital Ocean primero se debe explicar que es la nube.
 author:
   name: Efrén Martínez Rodríguez
   bio:
