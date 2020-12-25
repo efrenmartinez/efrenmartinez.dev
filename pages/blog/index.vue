@@ -16,9 +16,7 @@
               <article>
                 <h2>{{ article.title }}</h2>
                 <aside>
-                  <time :datetime="article.createdAt">{{
-                    formatDate(article.createdAt)
-                  }}</time>
+                  <time :datetime="article.date">{{ article.date }}</time>
                 </aside>
               </article>
             </NuxtLink>
@@ -40,8 +38,8 @@ export default {
   name: 'Index',
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
-      .only(['publish', 'title', 'slug', 'createdAt'])
-      .sortBy('createdAt', 'desc')
+      .only(['publish', 'title', 'slug', 'date'])
+      .sortBy('date', 'desc')
       .fetch()
     return { articles }
   },

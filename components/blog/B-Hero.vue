@@ -2,7 +2,7 @@
   <section class="B-Hero">
     <h1>{{ title }}</h1>
     <aside v-if="time">
-      <time :datetime="time">{{ formatDate(time) }}</time>
+      <time :datetime="time">{{ time }}</time>
     </aside>
   </section>
 </template>

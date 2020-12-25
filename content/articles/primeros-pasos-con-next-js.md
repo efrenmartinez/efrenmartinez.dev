@@ -13,6 +13,7 @@ tags:
 img:
   src: https://res.cloudinary.com/efrenmartinez/image/upload/v1608836120/efrenmartinez.dev/blog/primeros-pasos-con-next-js/thumbs-primeros-pasos-con-next-js_ezt0g0_qo58ce.jpg
   alt: primeros-pasos-con-next-js
+date: 07 de diciembre de 2020
 ---
 
 Como varios sabrán soy un gran entusiasta de todo lo relacionado con VueJS 💚 y no tengo ningún problema con realizar proyectos por sus distintos sabores de VueJS. Pero hace pocos días empecé a trabajar en un proyecto realizado con Next.js, un framework para renderizar nuestras vistas en el lado del servidor (SSR) que trabaja sobre ReactJS, Webpack y Babel. Así que me dí a la tarea de aprender más sobre Next.js y no quedarme atrás con el equipo.😆😂

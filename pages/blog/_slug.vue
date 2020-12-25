@@ -3,7 +3,7 @@
     <div v-if="article.img.src" class="img-container">
       <img :src="article.img.src" :alt="article.img.alt" />
     </div>
-    <BHero :title="article.title" :time="article.createdAt" />
+    <BHero :title="article.title" :time="article.date" />
     <nuxt-content :document="article" />
   </main>
 </template>

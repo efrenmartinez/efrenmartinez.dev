@@ -49,8 +49,8 @@ header {
     ul {
       a {
         text-decoration: none;
-        text-transform: uppercase;
-        font-weight: var(--font-semi-bold);
+        text-transform: lowercase;
+        font-weight: var(--font-regular);
         font-size: 1.6em;
         color: var(--gray);
         margin-right: 30px;
