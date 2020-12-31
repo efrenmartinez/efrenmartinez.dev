@@ -8,9 +8,15 @@
     </n-link>
     <nav>
       <ul>
-        <n-link to="/" title="Home">.home</n-link>
         <n-link to="/about" title="About">.about</n-link>
         <n-link to="/blog" title="Blog en Español">.blog (es)</n-link>
+        <a
+          href="/efren_martinez_rodriguez.pdf"
+          title="Resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          >.resume</a
+        >
       </ul>
     </nav>
   </header>
@@ -40,6 +46,10 @@ header {
   img {
     height: 80px;
     width: 80px;
+    &:hover {
+      height: 85px;
+      width: 85px;
+    }
   }
   nav {
     height: 100%;

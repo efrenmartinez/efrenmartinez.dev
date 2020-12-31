@@ -52,7 +52,7 @@ export default {
       }
     }
     h1.saludo {
-      font-size: 2.5em;
+      font-size: 2em;
     }
     h2 {
       font-family: var(--font-primary);
