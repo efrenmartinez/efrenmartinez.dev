@@ -18,7 +18,7 @@ export default {
       lang: 'en',
     },
     titleTemplate: '%s | Efrén Martínez Rodríguez',
-    title: 'A front-end enginner',
+    title: 'A front-end engineer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

@@ -4,7 +4,7 @@ Personal blog where I write about coding, documentation and best practices.
 
 ## 📱 [Live Review](https://efrenmartinez.dev)
 
-## 🚀  Getting started
+## 📦  Getting started
 
 > NOTE: I USE MAC FOR DEVELOP.
 

@@ -54,7 +54,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'I´m a front-end enginner based in Querétaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
+            'I´m a front-end engineer based in Querétaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
         },
         // Open Graph / facebook
         {
@@ -67,12 +67,12 @@ export default {
         },
         {
           property: 'og:title',
-          content: 'Efrén Martínez Rodríguez | A front-end enginner.',
+          content: 'Efrén Martínez Rodríguez | A front-end engineer.',
         },
         {
           property: 'og:description',
           content:
-            'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
+            'I´m a front-end engineer based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
         },
         {
           property: 'og:image',
@@ -90,12 +90,12 @@ export default {
         },
         {
           name: 'twitter:title',
-          content: 'Efrén Martínez Rodríguez | A front-end enginner.',
+          content: 'Efrén Martínez Rodríguez | A front-end engineer.',
         },
         {
           name: 'twitter:description',
           content:
-            'I´m a front-end enginner based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
+            'I´m a front-end engineer based in Queretaro 🇲🇽. Skilled in Vue.js & Nuxt.js, JavaScript (ES6+), HTML & (S)CSS and much more.',
         },
         {
           name: 'twitter:image',
