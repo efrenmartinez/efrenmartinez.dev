@@ -13,6 +13,7 @@ img:
   src:
   alt:
 date: 25 de diciembre de 2020
+order: 2
 ---
 
 Para hablar de **Digital Ocean** primero se debe explicar que es la nube. La **nube** son los servicios y programas de Internet que accedemos a través de un navegador web. Existen tres categorias dentro de la nube:

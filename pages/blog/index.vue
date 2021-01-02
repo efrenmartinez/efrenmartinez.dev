@@ -1,6 +1,5 @@
 <template>
   <main>
-    <BHero title="Welcome a mi blog" />
     <section>
       <div class="container-list">
         <ul class="list__articles">
@@ -39,7 +38,7 @@ export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
       .only(['publish', 'title', 'slug', 'date'])
-      .sortBy('date', 'desc')
+      .sortBy('order', 'desc')
       .fetch()
     return { articles }
   },
@@ -125,6 +124,7 @@ export default {
 
 <style lang="scss" scoped>
 main {
+  padding-top: 150px;
   min-height: 550px;
   .container-list {
     width: 650px;
