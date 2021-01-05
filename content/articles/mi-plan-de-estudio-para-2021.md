@@ -26,13 +26,13 @@ Antes de iniciar el 2021 he escrito una pequeña lista de cosas que quiero apren
 - **Volver a lo básico**
 - **Salir de mi zona de confort**
 - **Tecnologías que prometen mucho**
-- **Tecnologías que no son tecnologías pero quiero aprender**
+- **Tecnologías que no son tecnologías, pero quiero aprender**
 
 # Objetivo principal
 
 Mi objetivo principal de este año 2021 es aprender **inglés**.
 
-Un objetivo que no le dí la importancia antes y por el cual he tenido que ser rechazado de varias propuestas de trabajo (algunas muy buenas 😕 ).
+Un objetivo que no le dí la importancia antes y por el cual he perdido oportunidades laborales muy buenas 😕.
 
 Para esto estudiaré la Escuela de Inglés de Platzi. 👌🏻
 
@@ -106,7 +106,7 @@ Tecnologías que vengo siguiendo estos últimos meses y prometen mucho.
 
 # Tecnologías que no son tecnologías pero quiero aprender
 
-Temas que no tienen relación con mi rol pero de igual manera me interesa aprender:
+Temas que me interesa aprender para mejorar mi perfil profesional:
 
 1. Cómo escribir un buen contenido.
 2. Cómo escribir una buena documentación.
@@ -117,4 +117,4 @@ En el papel se ve que es mucho por aprender pero siendo sincero no me apura comp
 
 Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/efren-martinez-rodriguez/) y en [GitHub](https://github.com/efrenmartinez).
 
-Y para tí, qué es lo esperas aprender para el 2021?
+Y para tí,qué es lo esperas aprender para el 2021?
