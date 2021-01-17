@@ -27,7 +27,7 @@ $ cd efrenmartinez.dev
 ```bash
 $ npm install
 $ // or
-$ yarn insrall
+$ yarn install
 ```
 
 4. Run development enviroment.
@@ -54,4 +54,4 @@ This site deploy in VERCEL.
 
 ## 📄  [License](https://choosealicense.com/licenses/mit/)
 
-MIT © [Efrén Martínez](https://www.efrenmartinez.dev)
+MIT
